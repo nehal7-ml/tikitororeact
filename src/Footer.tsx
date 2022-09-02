@@ -7,8 +7,8 @@ class Footer extends React.Component {
     render():React.ReactNode {
         return (
             <div className="Footer">
-                <span>Follow us</span>
-                <Follow />
+                <span style={{fontSize: "10px",}}>Follow us</span>
+                <Follow></Follow>
                 <p className="Footer Link">www.tikitoro.com</p>
             </div>
         )

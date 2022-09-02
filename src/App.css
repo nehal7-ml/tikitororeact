@@ -1,18 +1,43 @@
+html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
 .App {
+  position: absolute;
   color: #79614a;
-  height: fit-content;
-  width: 100%
+  height: 150%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  font-family: Arial, sans-serif ;
 }
 .Header {
-  position: relative;
+  position: sticky;
   top: 0%;
-  margin: 0%;
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 45px;
+  z-index:1;
+  background-color: white;
 }
 .Header .Img {
 
   position: relative;
-  top: 0%;
   align-self: center;
+  width: 85px;
+  height: 35px;
+}
+.mainContainer {
+  position: absolute;
+  top: 45px;
+  align-self: center;
+  width: 98%;
+  height: 100%;
+  left: 1%;
+  right: 1%;
+  margin: 1px 1px 5% 1px;
 }

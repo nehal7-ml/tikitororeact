@@ -1,0 +1,20 @@
+{
+   "sensitive" :  {
+    "content": {
+        "heading": "Sensitive skin",
+        "text": "Sensitive skin is prone\nto inflammation and may appear\nred and irritated. Sensitive skin\nmay react to a host of elements,\neven natural ones. Synthetic\ningredients,harsh chemicals are\na complete no-no; even strong\nperfumesare best avoided."
+    },    
+    "imgRight": true,
+    "imgsrc": "./assets/sensitiveskin.png"
+
+    },
+    "Dry" :  {
+        "content": {
+            "heading": "Dry skin",
+            "text": "Dry skin looks flaky and dull. It is\noften caused by extreme weather\nconditions such as cold; usage of\nharsh chemicals that dry up skin\ncells; or low production of sebum.\nNeeds to be well-moisturised\nthrough the year. (Yes, even teens\nmay have dry skin.)"
+        },    
+        "imgRight": false,
+        "imgsrc": "./assets/dryskin.png"
+    
+        }
+}
